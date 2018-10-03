@@ -15,7 +15,36 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
+
+a<-5
+a2<-5L
+
+aVector<-c(5,6,7)
+a2Vector<-c(5L,6L,7L)
+
+b<-"你好"
+bVector<-c("你好","How are you?")
+
+library(readr)
+student <- read_csv("https://raw.githubusercontent.com/tpemartin/course-107-1-programming-for-data-science/master/data/student.csv")
+library(dplyr)
+library(magrittr)
+student %<>% mutate(
+  身高級距=cut(身高,c(0,150,155,160,165,170,175,180,185,200)))
+
+
 studentID <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/studentID.csv")
+str_sub(studentID,)
+
+hw <- "Hadley Wickham"
+
+str_sub(hw, 1, 6)
+str_sub(hw, end = 6)
+str_sub(hw, 8, 14)
+str_sub(hw, 8)
+str_sub(hw, c(1, 8), c(6, 14))
+
+
 
 ```
 
