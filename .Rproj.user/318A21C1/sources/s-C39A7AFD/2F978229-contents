@@ -1,4 +1,15 @@
 ---
+title: "練習1"
+
+date: "2018-10-03"
+
+output: html_document
+
+params:
+
+  studentID: "410773054"
+
+  studentName: "韋馨媛"
 ---
 
 ```{r setup, include=FALSE}
@@ -13,8 +24,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
-studentID <- read_csv("https://raw.githubusercontent.com/tpemartin/github-data/master/studentID.csv")
-
 ```
 
 ## Including Plots
