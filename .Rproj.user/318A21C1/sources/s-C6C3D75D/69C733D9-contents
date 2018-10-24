@@ -112,6 +112,30 @@ StuDF[c(T,F,F,F,F),c(F,T,F)]
 StuDF[c(T,F,F,T,F),]
 ```
 
+```{r}
+StuDF[c(T,F,F,F,F),]
+StuDF[c(T,F,F,T,F),]
+```
+
+```{r}
+(StuDF$score >= 80)
+(StuDF$name == "小新")
+```
+
+```{r}
+StuDF[which(StuDF$score>=80),2]
+StuDF[which(StuDF$name == "小新"),3]
+```
+
+```{r}
+(classSurvey$性別 == "男")
+
+(classSurvey$本學期學分數 > 20)
+
+(classSurvey$性別 == "男" | 
+    classSurvey$本學期學分數 > 20)
+```
+
 
 ## Including Plots
 
