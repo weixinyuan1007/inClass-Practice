@@ -1,0 +1,4 @@
+"0","classSurvey<-gs_read(gsSurvey,ws=1) #access the 1st worksheet
+"
+"2","Error in gs_read(gsSurvey, ws = 1) : could not find function ""gs_read""
+"
