@@ -1,0 +1,25 @@
+"0","library(readr)"
+"0","exData <- read_csv(""https://quality.data.gov.tw/dq_download_csv.php?nid=6563&md5_url=9f65bdb6752389dc713acc27e93c1c38"")"
+"2","Parsed with column specification:
+cols(
+  期間 = col_character(),
+  `新台幣NTD/USD` = col_double(),
+  `日圓JPY/USD` = col_double(),
+  `英鎊USD/GBP` = col_double(),
+  `港幣HKD/USD` = col_double(),
+  `韓元KRW/USD` = col_double(),
+  `加拿大幣CAD/USD` = col_double(),
+  `新加坡元SGD/USD` = col_double(),
+  `人民幣CNY/USD` = col_double(),
+  `澳幣USD/AUD` = col_double(),
+  `印尼盾IDR/USD` = col_character(),
+  `泰銖THB/USD` = col_double(),
+  `馬來西亞幣MYR/USD` = col_double(),
+  `菲律賓披索PHP/USD` = col_double(),
+  `歐元USD/EUR` = col_character(),
+  `馬克DEM/USD` = col_character(),
+  `法國法郎FRF/USD` = col_character(),
+  `荷蘭幣NLG/USD` = col_character(),
+  `越南盾VND/USD` = col_character()
+)
+"

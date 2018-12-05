@@ -1,0 +1,12 @@
+"0","library(readr)"
+"0","gsHW2ws <- read_csv(""https://raw.githubusercontent.com/tpemartin/github-data/master/gsHW2ws.csv"")"
+"2","Parsed with column specification:
+cols(
+  ans1 = col_integer(),
+  ans21 = col_integer(),
+  ans22 = col_integer(),
+  ans23 = col_integer(),
+  ans24 = col_integer(),
+  id = col_integer()
+)
+"

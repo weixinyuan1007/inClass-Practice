@@ -1,0 +1,10 @@
+"0","library(readr)"
+"0","allBankData <- read_csv(""https://raw.githubusercontent.com/tpemartin/github-data/master/allBankData.csv"")"
+"2","Parsed with column specification:
+cols(
+  銀行 = col_character(),
+  年月 = col_character(),
+  `定存利率-三個月-固定` = col_double(),
+  `定存利率-一年期-固定` = col_double()
+)
+"
