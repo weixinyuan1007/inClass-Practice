@@ -1,0 +1,2 @@
+"0","libraryData$學院 <- as.factor(libraryData$學院)"
+"0","levels(libraryData$學院) -> a"
