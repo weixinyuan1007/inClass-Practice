@@ -1,6 +1,6 @@
 "0","# 0"
-"0","allBorrowCount <- vector(""numeric"",18)"
-"0","for(i in c(1:18)){"
+"0","allBorrowCount <- vector(""numeric"",5)"
+"0","for(i in c(1:5)){"
 "0","  # 1"
 "0","  a_i <- a[i] "
 "0","  # 2"
