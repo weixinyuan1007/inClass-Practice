@@ -1,0 +1,12 @@
+"0","download.file(""https://github.com/tpemartin/github-data/blob/master/plotly_4070_neda.Rda?raw=true"",destfile = ""plotly_4070_neda.Rda"")"
+"2","trying URL 'https://github.com/tpemartin/github-data/blob/master/plotly_4070_neda.Rda?raw=true'
+"
+"2","Content type 'application/octet-stream'"
+"2"," length 12400 bytes (12 KB)
+"
+"2","downloaded 12 KB
+
+"
+"0","load(""plotly_4070_neda.Rda"")"
+"2","Error in load(""plotly_4070_neda.Rda"") : error reading from connection
+"

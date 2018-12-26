@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"load(\"plotly_4070_neda.Rda\")","line_number":0}],"message":"Error in load(\"plotly_4070_neda.Rda\") : error reading from connection\n"}

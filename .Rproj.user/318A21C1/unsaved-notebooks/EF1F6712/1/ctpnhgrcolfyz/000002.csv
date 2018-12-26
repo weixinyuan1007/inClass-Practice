@@ -1,0 +1,20 @@
+"0","install.packages(""plotly"")"
+"2","Installing package into ¡¥C:/Users/sara/Documents/R/win-library/3.5¡¦
+(as ¡¥lib¡¦ is unspecified)
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/plotly_4.8.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2434724 bytes (2.3 MB)
+"
+"2","downloaded 2.3 MB
+
+"
+"1","package â€˜plotlyâ€™ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1","The downloaded binary packages are in
+	C:\Users\sara\AppData\Local\Temp\Rtmpm8eNko\downloaded_packages"
+"1","
+"

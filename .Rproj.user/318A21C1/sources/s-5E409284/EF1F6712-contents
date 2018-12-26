@@ -39,7 +39,15 @@ for(i in c(1:5)){
 ```
 
 ```{r}
+install.packages("plotly")
+```
 
+
+```{r}
+download.file("https://github.com/tpemartin/github-data/blob/master/plotly_4070_neda.Rda?raw=true",destfile = "plotly_4070_neda.Rda")
+load("plotly_4070_neda.Rda")
+library(plotly)
+plotly_4070_neda
 ```
 
 ## Including Plots
